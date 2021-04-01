@@ -1,6 +1,6 @@
 /**
  * @name NeverGonnaGiveYouUp
- * @authorId 278543574059057154
+ * @authorId 565892085178433542
  */
 
 module.exports = class {
