@@ -4,6 +4,22 @@
  */
 
 module.exports = class {
+  getName() {
+    return 'NeverGonnaGiveYouUp'
+  }
+
+  getAuthor() {
+    return 'Scribble Nerd'
+  }
+
+  getVersion() {
+    return '1.0.0'
+  }
+
+  getDescription() {
+    return 'A Better Discord plugin that displays "Never Gonna Give You Up" (the rick roll) whenever you start your Discord client.'
+  }
+
   start() {
     document.getElementsByClassName('app-2rEoOp')[0].style.display = 'none'
     var rickrollspan = document.createElement('span')
